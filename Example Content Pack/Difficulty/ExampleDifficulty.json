@@ -1,0 +1,28 @@
+{
+  "Name": "GREEN",
+  "Description": "SO MUCH GREEN.",
+  "Grade": "$Path{Core/Difficulty/Grades/Hard.json}",
+  "Identifier": "Example.Example",
+  "Aspects": [
+    {
+      "$Type": "ExampleContentPack.ExampleDifficultyAspect",
+      "$Data": {
+      }
+    },
+    {
+      "$Type": "Lomztein.BFA2.Scenes.Battlefield.Difficulty.Aspects.ResourcesDifficultyAspect",
+      "$Data": {
+        "Amount": [
+          {
+            "ResourceIdentifier": "Core.Credits",
+            "Value": 750
+          },
+          {
+            "ResourceIdentifier": "Core.Research",
+            "Value": 1
+          }
+        ]
+      }
+    }
+  ]
+}

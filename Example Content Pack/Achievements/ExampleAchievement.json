@@ -1,0 +1,28 @@
+{
+  "Name": "Almost a clicker game",
+  "Description": "Click 200 times.",
+  "Identifier": "Example.Click100Times",
+  "Sprite": {
+    "Path": "",
+    "Texture": "$Path{ExampleContentPack/Sprites/ExampleEnemy.png}",
+    "Rect": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Width": 0.0,
+      "Height": 0.0
+    },
+    "Pivot": {
+      "X": 0.5,
+      "Y": 0.5
+    },
+    "PixelsPerUnit": 16.0
+  },
+  "Hidden": false,
+  "Requirement": {
+    "$Type": "ExampleContentPack.ExampleAchievementRequirement",
+    "$Data": {
+      "TargetClicks": 200
+    }
+  },
+  "Reward": null
+}
